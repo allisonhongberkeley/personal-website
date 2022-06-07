@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body>
+        <div id="nav-placeholder">
+
+        </div>
+        <script>
+        $(function(){
+        $("#nav-placeholder").load("navigation.html");
+        });
+        </script>
+        <div class="center">
+            <h4 class="header" id="experience">Experience</h4>
+        </div>
+        <div class="section center blueFrame">
+            <h6 class="projectName underline">Gitlet</h6>
+            <p>
+                Developed a <a href="https://inst.eecs.berkeley.edu/~cs61b/sp22/materials/proj/proj3/index.html">
+                version-control system</a> similar to Git that supports initializing repositories, add, commit, branch, merge,
+                remove, reset in Java. Utilized various data structures and implemented algorithms such as Breadth First Search to
+                efficiently store and retrieve commit data.
+            </p>
+        </div>
+        <div class="section center blueFrame">
+            <h6 class="projectName underline">Scheme</h6>
+            <p>
+                Designed several features for the interpreter of a subset of the <a href="https://inst.eecs.berkeley.edu/~cs61a/fa21/proj/scheme/">
+                Scheme</a> programming language, which supports functionality of reading and evaluating expressions and procedures
+                through a recursive parsing mechanism. Utilized tail call optimization and developed a strong understanding of
+                lexical and syntactical analysis.
+            </p>
+        </div>
+    </body>
+</html>

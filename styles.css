@@ -1,0 +1,73 @@
+html {
+    font-family: "Times New Roman";
+}
+
+body {
+    margin: 10px;
+    background-color: #efd469;
+    color: white;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.centerPage {
+    margin-top: 100px;
+}
+
+.projectName {
+    font-weight: bold;
+}
+
+#experience {
+    padding: 20px;
+    font-weight: bolder;
+}
+
+.aboutMe {
+    font-size: 16px;
+    width: 700px;
+    margin-top: 75px;
+    margin-right: 125px;
+    padding: 10px;
+    background-color: #add8e6;
+    float: right;
+}
+
+#photo {
+    float: left;
+    margin-top: 50px;
+    margin-left: 125px;
+    padding: 10px;
+    background-color: #add8e6;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.section {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    background-color: #add8e6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blueFrame {
+    border: 10px white;
+    border-radius: 15px;
+}
+
+.blueFrame:hover {
+    background-color: #CBC3E3;
+}
+
+.sideBySide {
+    display: inline-block;
+}
